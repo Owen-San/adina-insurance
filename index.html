@@ -31,7 +31,47 @@
             >
             <a href="#cta" class="nav__link--primary">Get Insured</a>
           </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </nav>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#about" class="menu__link" onclick="closeMenu()"
+                >About</a
+              >
+            </li>
+            <li class="menu__list">
+              <a href="#coverage" class="menu__link" onclick="closeMenu()"
+                >Coverage</a
+              >
+            </li>
+            <li class="menu__list">
+              <a href="#faq" class="menu__link" onclick="closeMenu()">FAQ</a>
+            </li>
+            <li class="menu__list">
+              <a
+                href="https://adinainsuranceagency.propeller.insure/axelerator-public"
+                target="_blank"
+                class="menu__link"
+                onclick="closeMenu()"
+                >DIY Bond</a
+              >
+            </li>
+            <li class="menu__list">
+              <a
+                href=""
+                class="menu__link menu__link--primary"
+                onclick="closeMenu()"
+                >Get Insured</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <hr />
@@ -206,8 +246,8 @@
             Whether you're looking for coverage or a fast, stress-free bond,
             we’ve got you covered.
             <strong
-              >If you want to handle the bond yourself, click the DIY Bond button
-              below.</strong
+              >If you want to handle the bond yourself, click the DIY Bond
+              button below.</strong
             >
           </p>
           <a
