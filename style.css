@@ -546,6 +546,16 @@ nav {
 
 @media (max-width: 768px) {
 
+    .nav__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo__img {
+        height: 80px;
+        width: auto;
+    }
+
     .nav__links {
         display: none;
     }
