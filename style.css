@@ -181,7 +181,7 @@ nav {
 /* COVERAGE */
 
 #coverage h2 {
-    padding-top: 32px;
+    padding: 32px 0;
 }
 
 .coverage__grid {
@@ -292,8 +292,11 @@ nav {
 /* CTA */
 
 #cta {
-    background-color: #F2F2F5;
     padding: 64px 32px;
+}
+
+#cta h2.section__header {
+    padding-top: 24px;
 }
 
 .cta__container {
@@ -359,8 +362,6 @@ nav {
 /* FAQ */
 
 #faq {
-    background-color: #F2F2F5;
-    padding: 64px 24px;
     text-align: center;
 }
 
@@ -416,4 +417,132 @@ nav {
     max-height: 300px;
     opacity: 1;
     padding-bottom: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #0A2342;
+    color: #F2F2F5;
+    padding: 48px 24px 24px;
+    font-size: 14px;
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__left,
+.footer__middle,
+.footer__right {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer__logo {
+    height: 68px;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.footer__tagline {
+    font-style: italic;
+    color: #BFC5D2;
+    margin-top: 4px;
+}
+
+.footer__middle ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.footer__middle li {
+    margin-bottom: 8px;
+}
+
+.footer__middle a {
+    color: #F2F2F5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer__middle a:hover {
+    color: #FFD700;
+}
+
+.footer__bottom {
+    text-align: center;
+    margin-top: 32px;
+    border-top: 1px solid #1C77C3;
+    padding-top: 16px;
+    color: #BFC5D2;
+}
+
+.footer__p {
+    line-height: 1.5em;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    #about .container {
+        padding: 0 64px;
+        padding-top: 16px;
+    }
+
+    #about .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #coverage .container {
+        padding: 0;
+        padding-top: 48px;
+    }
+
+    .coverage__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why .container {
+        padding: 0 64px;
+        padding-bottom: 32px;
+    }
+
+    #cta {
+        padding: 0 64px;
+    }
+
+    #cta h2.section__header {
+        padding-top: 72px;
+    }
+
+    #faq .container {
+        padding: 0 64px;
+        padding-bottom: 48px;
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        gap: 16px;
+    }
+
+    .footer__middle {
+        text-align: center;
+    }
+
+    .footer__p {
+        line-height: 1.8em;
+    }
 }
