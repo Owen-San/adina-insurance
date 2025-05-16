@@ -29,7 +29,7 @@ a {
 .btn {
     background-color: #0A2342;
     color: #FFFFFF;
-    padding: 12px 24px;
+    padding: 16px 32px;
     font-size: 16px;
     border: none;
     border-radius: 24px;
@@ -153,15 +153,16 @@ nav {
     justify-content: center;
     color: #222831;
     font-size: 64px;
+    text-align: center;
 }
 
 .section__para {
     width: 600px;
     text-align: center;
     color: #333333;
-    padding: 24px 0;
-    line-height: 1.25;
-    font-size: 24px;
+    padding: 28px 0;
+    line-height: 1.5;
+    font-size: 20px;
 }
 
 .about__description {
@@ -286,4 +287,133 @@ nav {
     color: #4F4F4F;
     font-size: 16px;
     line-height: 1.5;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #F2F2F5;
+    padding: 64px 32px;
+}
+
+.cta__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cta__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta__form {
+    max-width: 700px;
+}
+
+.cta__form form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 16px;
+}
+
+.cta__form input,
+.cta__form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.btn {
+    background-color: #0A2342;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1C77C3;
+}
+
+.btn--secondary {
+    display: flex;
+    margin-top: 16px;
+    background-color: #1C77C3;
+}
+
+.section__para strong {
+    color: #0A2342;
+}
+
+/* FAQ */
+
+#faq {
+    background-color: #F2F2F5;
+    padding: 64px 24px;
+    text-align: center;
+}
+
+#faq p {
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#faq h2.section__header {
+    padding-bottom: 24px;
+}
+
+.faq__wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq__item {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #BFC5D2;
+}
+
+.faq__question {
+    background: none;
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0A2342;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.faq__question:hover {
+    color: #1C77C3;
+}
+
+.faq__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+}
+
+.faq__item.active .faq__answer {
+    max-height: 300px;
+    opacity: 1;
+    padding-bottom: 12px;
 }
