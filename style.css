@@ -546,3 +546,82 @@ nav {
         line-height: 1.8em;
     }
 }
+
+/* SMALL PHONE */
+
+@media (max-width: 480px) {
+
+    h1.section__header {
+        font-size: 48px;
+    }
+
+    h2.section__header {
+        font-size: 48px;
+    }
+
+    #about .section__para {
+        max-width: 430px;
+        font-size: 18px;
+    }
+
+    #coverage h2.section__header {
+        padding-top: 64px;
+    }
+
+    #why .why__grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #why h2.section__header {
+        font-size: 42px;
+    }
+
+    #cta {
+        padding: 0;
+    }
+
+    #cta h2.section__header {
+        padding: 0 64px;
+        padding-top: 84px;
+    }
+    
+    #cta p.section__para {
+        width: 416px;
+    }
+    
+    #cta form {
+        max-width: 400px;
+    }
+
+    #faq h2.section__header {
+        font-size: 42px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.footer__tagline {
+        text-align: center;
+    }
+
+    .footer__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+
+    .footer {
+        padding: 24px;
+    }
+}
