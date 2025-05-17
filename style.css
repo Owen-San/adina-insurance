@@ -233,6 +233,10 @@ nav {
     padding-top: 64px;
 }
 
+#coverage h3 {
+    text-align: center;
+}
+
 .coverage__grid {
     display: flex;
     justify-content: center;
