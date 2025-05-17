@@ -190,6 +190,10 @@ nav {
 
 /* ABOUT */
 
+#about .container {
+    padding: 80px;
+}
+
 #about .row {
     display: flex;
     align-items: center;
