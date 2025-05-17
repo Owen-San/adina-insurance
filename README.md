@@ -18,7 +18,7 @@ The site was hand-coded using HTML, CSS, and JavaScript with an emphasis on prof
 
 ## 🌐 Live Site
 
-[Adina Insurance](https://adinainsurance.com/) *(Replace with actual link if not yet live)*
+[Adina Insurance](https://adinainsurance.com/)
 
 ---
 
