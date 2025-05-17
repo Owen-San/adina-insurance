@@ -29,7 +29,7 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 32px 16px;
     box-sizing: border-box;
 }
 
@@ -227,6 +227,7 @@ nav {
 
 #coverage h2 {
     padding: 32px 0;
+    padding-top: 64px;
 }
 
 .coverage__grid {
@@ -285,6 +286,10 @@ nav {
     align-items: center;
 }
 
+#why .container {
+    padding-bottom: 64px;
+}
+
 .why__grid {
     display: grid;
     justify-content: center;
@@ -341,7 +346,7 @@ nav {
 }
 
 #cta h2.section__header {
-    padding-top: 24px;
+    padding-top: 48px;
 }
 
 .cta__container {
