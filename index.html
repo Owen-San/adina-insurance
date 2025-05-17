@@ -131,9 +131,9 @@
                 <h3>Business Insurance Solutions</h3>
                 <p>
                   Get tailored coverage like professional liability (PL),
-                  general liability (GL), E&O, BOPs and more. We work with A.M. Best
-                  A++ rated carriers to protect businesses such as notaries,
-                  dispensaries, and transportation services.
+                  general liability (GL), E&O, BOPs and more. We work with A.M.
+                  Best A++ rated carriers to protect businesses such as
+                  notaries, dispensaries, and transportation services.
                 </p>
               </div>
               <div class="card__img--wrapper">
@@ -264,10 +264,37 @@
         </div>
 
         <div class="cta__form">
-          <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+          <form
+            action="https://formsubmit.co/adinainsurance@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+
+            <!-- Hidden Fields -->
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Message from Adina Insurance Site"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thanks for reaching out to Adina Insurance! We'll get back to you soon."
+            />
+
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
